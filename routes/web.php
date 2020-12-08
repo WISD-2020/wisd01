@@ -28,6 +28,7 @@ Route::get('/aa/a1',function (){
 
 Route::get('/aa/a2',function (){
     return view('aa.a2') ;
+});
 
 Route::get('/bb/b1',function (){
     return view('bb.b1');
@@ -35,5 +36,4 @@ Route::get('/bb/b1',function (){
 
 Route::get('/bb/b2',function (){
     return view('bb.b2');
-
 });
